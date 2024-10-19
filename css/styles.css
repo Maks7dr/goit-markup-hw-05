@@ -565,7 +565,6 @@ address{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 8px;
 }
 .input-reg{
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -599,7 +598,7 @@ address{
     width: 360px;
     height: 16px;
     align-items: center;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 .input-check{
     font-weight: 400;
@@ -618,6 +617,9 @@ address{
     color: #4d5ae5;
 }
 .labels{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
     margin-bottom: 16px;
 }
 .send{
