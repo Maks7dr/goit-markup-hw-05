@@ -400,18 +400,28 @@
         </div>
         <form class="registr">
             <p class="text-modal">Leave your contacts and we will call you back</p>
-            <label class="label-reg">Name
-                <input type="text" name="user_name" class="input-reg" autofocus />
+            <div class="labels">
+                <label class="label-reg">Name
+                    <input type="text" name="user_name" class="input-reg" autofocus />
+                </label>
+                <label class="label-reg">Phone
+                    <input type="tel" name="phone" class="input-reg" />
+                </label>
+                <label class="label-reg">Email
+                    <input type="email" name="email" class="input-reg" />
+                </label>
+                <label class="label-reg">Comment
+                    <textarea name="comment" row="5" class="input-reg-com" placeholder="Text input"></textarea>
+                </label>
+            </div>
+            <label class="label-check">
+                <input type="checkbox" name="check" value="check" />
+                <p class="input-check">I accept the terms and conditions of the <swan class="swan-check">Privacy Policy</swan>
+                </p>
             </label>
-            <label class="label-reg">Phone
-                <input type="tel" name="phone" class="input-reg" />
-            </label>
-            <label class="label-reg">Email
-                <input type="email" name="email" class="input-reg" />
-            </label>
-            <label class="label-reg">Comment
-                <textarea name="comment" row="5" class="input-reg-com" placeholder="Text input"></textarea>
-            </label>
+            <button type="submit" name="send" class="send">
+                Send
+            </button>
         </form>
     </div>
 </div>
