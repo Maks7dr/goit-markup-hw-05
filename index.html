@@ -391,7 +391,28 @@
 </footer>
 <div class="modal-overlay">
     <div class="modal">
-        <p>Modal content</p>
+        <div class="exit">
+            <button type="submit" name="exit" class="exit-btn">
+                <svg width="8" height="8" class="fill">
+                    <use href="./images/icons.svg#exit"></use>
+                </svg>
+            </button>
+        </div>
+        <form>
+            <p class="text-modal">Leave your contacts and we will call you back</p>
+            <label class="registr">Name
+                <input type="text" name="user_name" class="input-reg"/>
+            </label>
+            <label class="registr">Phone
+                <input type="tel" name="phone" class="input-reg" />
+            </label>
+            <label class="registr">Email
+                <input type="email" name="email" class="input-reg" />
+            </label>
+            <label class="registr">Comment
+                <input type="text" name="comment" class="input-reg" placeholder="Text input"/>
+            </label>
+        </form>
     </div>
 </div>
 </body>
