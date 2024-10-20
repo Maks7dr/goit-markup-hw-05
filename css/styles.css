@@ -545,9 +545,8 @@ address{
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 24px;
 }
-.exit-btn:hover,
-.exit-btn:focus{
-    background-color: rgba(0, 0, 0, 0.1);
+.exit-btn:hover{
+    background-color: #404bbf;
 }
 .text-modal{
     font-weight: 500;
@@ -654,6 +653,7 @@ address{
     padding: 0;
     margin: 0;
 }
+
 .span{
     position: absolute;
     top: 27px;
