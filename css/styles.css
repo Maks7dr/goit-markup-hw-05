@@ -657,8 +657,3 @@ address{
     padding: 0;
     margin: 0;
 }
-.spanon::after{
-    border: 1.25px solid #2e2f42;
-    width: 18px;
-    height: 0px;
-}
