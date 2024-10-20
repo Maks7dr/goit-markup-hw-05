@@ -583,6 +583,10 @@ address{
     gap: 4px;
     position: relative;
 }
+.label-reg:hover,
+.label-reg:focus{
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .input-reg-com{
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
