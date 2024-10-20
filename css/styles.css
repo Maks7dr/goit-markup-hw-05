@@ -661,10 +661,10 @@ address{
     color: #8e8f99;
     margin: 0;
 }
-.privacy:checked{
-    background-color:#404bbf;
-    border: none;
-    fill: #F4F4FD;
+input[type="checkbox"]:checked{
+    background-color: #404bbf;
+        border: none;
+        fill: #F4F4FD;
 }
 .flag{
     position: absolute;
