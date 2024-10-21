@@ -520,6 +520,7 @@ address{
     opacity: 0;
     pointer-events: none;
     
+    
 }
 .modal{
     position: absolute;
@@ -593,7 +594,7 @@ address{
 .input-reg:focus {
     border-color: #4D5AE5;
 }
-.input-reg:focus + svg use{
+.input-reg:focus + .name-svg{
     fill: #4D5AE5;
 }
 .label-reg{
