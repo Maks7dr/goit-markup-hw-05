@@ -481,7 +481,6 @@ address{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    gap: 16px;
     padding: 0;
     border-radius: 4px;
     min-width: 165px;
@@ -638,7 +637,7 @@ address{
     margin-bottom: 16px;
 }
 .checkbox{
-    margin-bottom: 24px;
+    margin-bottom: 24px;  
 }
 .visually-hidden{
     visibility: hidden;
@@ -649,6 +648,7 @@ address{
     letter-spacing: 0.04em;
     color: #8e8f99;
     margin: 0;
+
 }
 .visually-hidden:checked + .label-privacy .flag{
     background-color: #404bbf;
@@ -665,6 +665,14 @@ address{
     align-items: center;
     justify-content: center;
     fill: transparent;
+    position: absolute;
+    left: 0;
+    padding-left: 8px;
+}
+.possitions{
+    position: relative;
+    margin: 0;
+    align-items: center;
 }
 .policy-link{
     color: #4d5ae5;
