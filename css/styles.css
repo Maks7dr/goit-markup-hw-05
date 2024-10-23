@@ -638,9 +638,7 @@ address{
 }
 .checkbox{
     margin-bottom: 24px;  
-    position: relative;
     display: flex;
-    
 }
 .visually-hidden{
     visibility: hidden;
@@ -659,6 +657,9 @@ address{
     border: none;
     fill: #F4F4FD;
 }
+.flag-svg{
+    position: absolute;
+}
 .flag{   
     width: 16px;
     height: 16px;
@@ -670,10 +671,6 @@ address{
     justify-content: center;
     fill: transparent;
     margin-right: 8px;
-    
-}
-.flag-svg{
-    position: absolute; 
 }
 
 .policy-link{
