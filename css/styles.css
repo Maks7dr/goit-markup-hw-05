@@ -640,17 +640,19 @@ address{
     margin-bottom: 24px;  
     position: relative;
     display: flex;
-    align-items: center;
+    
 }
 .visually-hidden{
     visibility: hidden;
+    margin-left: -13px;
 }
 .label-privacy{
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    margin-left: 8px;
+    display: flex;
+    align-items: center;
 }
 .visually-hidden:checked + .label-privacy .flag{
     background-color: #404bbf;
@@ -667,10 +669,11 @@ address{
     align-items: center;
     justify-content: center;
     fill: transparent;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
+    margin-right: 8px;
+    
+}
+.flag-svg{
+    position: absolute; 
 }
 
 .policy-link{
